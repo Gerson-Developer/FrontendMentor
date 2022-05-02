@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    background-color: var(--Pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+    overflow: hidden;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card{
+    background-color: var(--Very-pale-blue);
+    border-radius: 20px;
+    width: 370px;
+}
+
+.card__imagen{
+    width: 370px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+} 
+
+.card__section{
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.card__title{
+    color: var(--Dark-blue);
+}
+
+.card__descrip{
+    color: var(--Desaturated-blue);
+}
+
+.card__plan{
+    background-color: #efefef8c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.card__plan-item{
+    width: 50px;
+    height: 50px;
+    padding-left:10px;
+    align-self: center;
+}
+
+.card__plan-start{
+    padding-right: 70px;
+}
+
+.card__plan-change{
+    align-self: center;
+    padding-right: 10px;
+}
+
+.card__bootom{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900;
+    border: none;
+}
+
+.card__bootom-active{
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    margin-top: 20px;
+}
+
+.card__bootom-cancel{
+    background-color: var(--Very-pale-blue);
+    /* border: none; */
+    color: var(--Desaturated-blue);
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .footer{
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    text-align: center;
+}   
